@@ -1,5 +1,6 @@
 # FPAC
 We give an example of resnet50 on Imagenet.
+
 1.run cen_generation.py to generate the distance of centroid deviation.
    python cen_generation.py --data_dir data_dir --resume ../resnet_50.pth --arch resnet_50 --adjust_ckpt --dataset imagenet  --limit 20
 
